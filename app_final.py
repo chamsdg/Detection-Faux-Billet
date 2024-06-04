@@ -7,10 +7,10 @@ from sklearn.metrics import accuracy_score, confusion_matrix
 import altair as alt
 
 # chargez les modeles
-linear_model = joblib.load('linear_model.pkl')
-kmeans = joblib.load('kmeans_model.pkl')
-logistic_model = joblib.load('logistic_model.pkl')
-scaler = joblib.load('scaler.pkl')
+linear_model = joblib.load('Modeles/linear_model.pkl')
+kmeans = joblib.load('Modeles/kmeans_model.pkl')
+logistic_model = joblib.load('Modeles/logistic_model.pkl')
+scaler = joblib.load('Modeles/scaler.pkl')
 
 # remplacer les nan par linear regression
 def handle_missing_values(data, linear_model):
