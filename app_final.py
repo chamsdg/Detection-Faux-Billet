@@ -61,7 +61,7 @@ Il a été développé en Python grâce à la librairie de Machine Learning scik
 
 
 # Image
-st.image("image1.jpg", caption="Billet CFA", use_column_width=True)
+st.image("images/image1.jpg", caption="Billet CFA", use_column_width=True)
 
 # chargez le fichier
 uploaded_file = st.file_uploader("Choisissez un fichier CSV", type="csv")
