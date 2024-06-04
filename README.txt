@@ -21,3 +21,7 @@ une régression logistique classique ;
 un k-means, duquel seront utilisés les centroïdes pour réaliser la prédiction.
 Cet algorithme se devra d’être naturellement le plus performant possible pour identifier un maximum de faux billets au sein de la masse de billets
 analysés chaque jour.
+
+l'application est disponible depuis ce lien :  
+
+https://detection-faux-billet-osjuc8yxgux58g3flscftg.streamlit.app/
