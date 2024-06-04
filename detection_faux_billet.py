@@ -16,7 +16,7 @@ import joblib
 from sklearn.metrics import accuracy_score, confusion_matrix
 
 # Lire le fichier dans un DataFrame
-data = pd.read_csv("billets.csv", sep = ";")
+data = pd.read_csv("Dataset/billets.csv", sep = ";")
 
 # Prepare les données
 data["is_genuine"].replace([True, False], [1, 0], inplace=True)
